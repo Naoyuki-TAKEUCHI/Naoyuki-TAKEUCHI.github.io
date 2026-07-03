@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" role="img" aria-labelledby="title desc">
+<title id="title">Stylized Mars nightside ionosphere</title>
+<desc id="desc">A stylized illustration of Mars with nightside ionospheric structures and solar wind flow.</desc>
+<defs>
+  <radialGradient id="mars" cx="36%" cy="35%" r="65%">
+    <stop offset="0" stop-color="#f0a26e"/>
+    <stop offset="0.55" stop-color="#b45532"/>
+    <stop offset="1" stop-color="#351b24"/>
+  </radialGradient>
+  <linearGradient id="night" x1="0" x2="1">
+    <stop offset="0" stop-color="#101829" stop-opacity="0.1"/>
+    <stop offset="1" stop-color="#02050c" stop-opacity="0.78"/>
+  </linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="9" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<rect width="960" height="720" fill="#111520"/>
+<g opacity=".55">
+  <circle cx="92" cy="92" r="2" fill="#fff"/><circle cx="770" cy="88" r="1.5" fill="#fff"/>
+  <circle cx="846" cy="500" r="1.5" fill="#fff"/><circle cx="163" cy="575" r="1.7" fill="#fff"/>
+  <circle cx="585" cy="625" r="1.5" fill="#fff"/><circle cx="410" cy="88" r="1.3" fill="#fff"/>
+</g>
+<g transform="translate(480 360)">
+  <circle r="238" fill="url(#mars)"/>
+  <circle r="238" fill="url(#night)"/>
+  <path d="M-172,-75 C-105,-118 -42,-120 16,-82 C85,-35 134,-45 198,-85" fill="none" stroke="#cf744f" stroke-width="10" opacity=".35"/>
+  <path d="M-188,78 C-112,42 -48,50 14,92 C83,137 141,119 190,76" fill="none" stroke="#f4b58b" stroke-width="8" opacity=".22"/>
+  <path d="M-38,-229 C-55,-170 -48,-108 -8,-58 C29,-13 26,54 -20,106 C-56,147 -63,187 -52,230" fill="none" stroke="#2c1c26" stroke-width="38" opacity=".25"/>
+  <g filter="url(#glow)" opacity=".86">
+    <path d="M-20,-280 C42,-266 96,-238 140,-192" fill="none" stroke="#91b7ff" stroke-width="4" stroke-linecap="round"/>
+    <path d="M42,-292 C104,-259 151,-212 184,-148" fill="none" stroke="#91b7ff" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+    <path d="M124,204 C70,250 7,276 -64,284" fill="none" stroke="#f09b6e" stroke-width="5" stroke-linecap="round"/>
+    <path d="M178,130 C124,200 56,240 -25,252" fill="none" stroke="#f09b6e" stroke-width="3" stroke-linecap="round" opacity=".85"/>
+  </g>
+</g>
+<g opacity=".78" stroke="#91b7ff" stroke-width="2" fill="none" stroke-linecap="round">
+  <path d="M72 188 C205 162 292 173 380 217"/>
+  <path d="M72 244 C205 218 292 229 380 273"/>
+  <path d="M72 300 C205 274 292 285 380 329"/>
+  <path d="M116 188 l-26 -10 m26 10 l-19 21"/>
+  <path d="M116 244 l-26 -10 m26 10 l-19 21"/>
+  <path d="M116 300 l-26 -10 m26 10 l-19 21"/>
+</g>
+<g font-family="Inter, system-ui, sans-serif" fill="#f4f0e8">
+  <text x="54" y="62" font-size="22" font-weight="700">Martian nightside ionosphere</text>
+  <text x="54" y="92" font-size="14" opacity=".68">Mars Express / MARSIS · MAVEN / NGIMS · auroral precipitation</text>
+</g>
+</svg>

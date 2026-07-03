@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+<title id="title">Placeholder for a global Mars map</title>
+<desc id="desc">A stylized gridded Mars map with nightside ionosphere detection features.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#f7f5ef"/><stop offset="1" stop-color="#e7dfd4"/></linearGradient>
+  <linearGradient id="heat" x1="0" x2="1"><stop stop-color="#263f70"/><stop offset="0.48" stop-color="#f2cf8d"/><stop offset="1" stop-color="#b45532"/></linearGradient>
+</defs>
+<rect width="900" height="560" fill="url(#bg)"/>
+<rect x="60" y="70" width="780" height="390" rx="12" fill="#fffdf8" stroke="#1d2430" stroke-opacity=".18"/>
+<g stroke="#1d2430" stroke-opacity=".14" stroke-width="1">
+  <path d="M60 135H840M60 200H840M60 265H840M60 330H840M60 395H840"/>
+  <path d="M190 70V460M320 70V460M450 70V460M580 70V460M710 70V460"/>
+</g>
+<g opacity=".94">
+  <ellipse cx="615" cy="312" rx="110" ry="55" fill="#b45532" opacity=".82"/>
+  <ellipse cx="300" cy="250" rx="155" ry="64" fill="#f2cf8d" opacity=".68"/>
+  <ellipse cx="500" cy="180" rx="105" ry="48" fill="#263f70" opacity=".56"/>
+  <ellipse cx="690" cy="142" rx="90" ry="42" fill="#b45532" opacity=".45"/>
+</g>
+<g fill="none" stroke="#263f70" stroke-width="2" stroke-opacity=".45">
+  <path d="M585 370 C625 305 705 300 748 238"/>
+  <path d="M570 386 C618 332 682 330 760 280"/>
+  <path d="M620 395 C670 360 715 342 795 330"/>
+</g>
+<rect x="665" y="492" width="150" height="16" rx="8" fill="url(#heat)"/>
+<text x="60" y="42" fill="#1d2430" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="700">NI detection / peak density map</text>
+<text x="60" y="505" fill="#667085" font-family="Inter, system-ui, sans-serif" font-size="14">Replace with an exported figure from IDL or Python.</text>
+<text x="664" y="484" fill="#667085" font-family="Inter, system-ui, sans-serif" font-size="12">low</text>
+<text x="790" y="484" fill="#667085" font-family="Inter, system-ui, sans-serif" font-size="12">high</text>
+</svg>
