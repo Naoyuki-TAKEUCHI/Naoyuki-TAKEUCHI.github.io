@@ -1,0 +1,10 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" rx="34" fill="#101522"/>
+  <g stroke="#fff" opacity=".12"><path d="M130 90V610M130 610H1080"/><path d="M130 506H1080M130 402H1080M130 298H1080M130 194H1080"/><path d="M320 90V610M510 90V610M700 90V610M890 90V610M1080 90V610"/></g>
+  <path d="M190 570C245 470 300 340 382 255C461 174 560 162 685 207C802 249 880 338 1010 455" fill="none" stroke="#FF8A4B" stroke-width="8" stroke-linecap="round"/>
+  <path d="M190 590C290 510 360 432 455 390C566 341 689 346 786 397C885 450 951 515 1040 578" fill="none" stroke="#8DB8FF" stroke-width="6" stroke-linecap="round"/>
+  <path d="M190 612C294 588 396 545 483 480C591 400 675 301 805 288C910 278 988 329 1058 397" fill="none" stroke="#92E6C2" stroke-width="5" stroke-linecap="round"/>
+  <text x="65" y="62" fill="#F7F3EC" font-family="system-ui" font-size="34" font-weight="700">NGIMS ion composition</text>
+  <text x="65" y="104" fill="#F7F3EC" opacity=".6" font-family="system-ui" font-size="20">Replace with O⁺ / O₂⁺ / CO₂⁺ / NO⁺ profiles</text>
+  <g font-family="monospace" font-size="20"><text x="930" y="160" fill="#FF8A4B">O₂⁺</text><text x="930" y="190" fill="#8DB8FF">CO₂⁺</text><text x="930" y="220" fill="#92E6C2">O⁺</text></g>
+</svg>

@@ -1,0 +1,11 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" rx="34" fill="#101522"/>
+  <g stroke="#fff" opacity=".12"><path d="M130 90V610M130 610H1080"/><path d="M130 506H1080M130 402H1080M130 298H1080M130 194H1080"/><path d="M320 90V610M510 90V610M700 90V610M890 90V610M1080 90V610"/></g>
+  <path d="M150 505C216 492 265 455 310 405C356 354 412 319 470 298C541 272 615 257 690 209C759 165 843 145 1050 128" fill="none" stroke="#FF8A4B" stroke-width="9" stroke-linecap="round"/>
+  <path d="M150 558C274 530 424 513 553 472C672 434 759 387 872 362C936 348 999 346 1060 352" fill="none" stroke="#8DB8FF" stroke-width="4" stroke-linecap="round" opacity=".7"/>
+  <g fill="#FFE1A8" opacity=".8"><circle cx="420" cy="310" r="5"/><circle cx="610" cy="250" r="4"/><circle cx="832" cy="148" r="4"/><circle cx="760" cy="386" r="4"/></g>
+  <text x="65" y="62" fill="#F7F3EC" font-family="system-ui" font-size="34" font-weight="700">Ionogram example</text>
+  <text x="65" y="104" fill="#F7F3EC" opacity=".6" font-family="system-ui" font-size="20">Replace with a real MARSIS AIS ionogram</text>
+  <text x="520" y="668" fill="#F7F3EC" opacity=".6" font-family="monospace" font-size="18">frequency</text>
+  <text x="40" y="360" fill="#F7F3EC" opacity=".6" font-family="monospace" font-size="18" transform="rotate(-90 40 360)">delay time</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#151926"/><stop offset="1" stop-color="#2A1520"/></linearGradient>
+    <radialGradient id="hot" cx="55%" cy="53%" r="55%"><stop stop-color="#FF8A4B" stop-opacity=".9"/><stop offset=".42" stop-color="#FF8A4B" stop-opacity=".16"/><stop offset="1" stop-color="#8DB8FF" stop-opacity=".08"/></radialGradient>
+  </defs>
+  <rect width="1200" height="720" rx="34" fill="url(#bg)"/>
+  <g opacity=".22" stroke="#fff"><path d="M0 120H1200M0 240H1200M0 360H1200M0 480H1200M0 600H1200"/><path d="M150 0V720M300 0V720M450 0V720M600 0V720M750 0V720M900 0V720M1050 0V720"/></g>
+  <ellipse cx="600" cy="360" rx="460" ry="215" fill="#0D111B" stroke="#FFFFFF" stroke-opacity=".16" stroke-width="2"/>
+  <ellipse cx="610" cy="360" rx="430" ry="190" fill="url(#hot)"/>
+  <path d="M310 422C435 344 538 347 625 397C722 453 830 444 930 363" fill="none" stroke="#FFE1A8" stroke-width="8" stroke-linecap="round" opacity=".62"/>
+  <path d="M356 274C461 303 537 287 616 240C712 182 809 217 903 282" fill="none" stroke="#8DB8FF" stroke-width="5" stroke-linecap="round" opacity=".55"/>
+  <g fill="#FF8A4B" opacity=".86"><circle cx="470" cy="404" r="15"/><circle cx="536" cy="384" r="10"/><circle cx="747" cy="420" r="13"/><circle cx="796" cy="386" r="8"/></g>
+  <text x="60" y="78" fill="#F7F3EC" font-family="system-ui" font-size="34" font-weight="700">Nightside ionosphere map</text>
+  <text x="60" y="117" fill="#F7F3EC" opacity=".6" font-family="system-ui" font-size="20">Replace with your detection-rate / peak-density figure</text>
+  <text x="960" y="646" fill="#F7F3EC" opacity=".72" font-family="monospace" font-size="18">Mars · MARSIS</text>
+</svg>
